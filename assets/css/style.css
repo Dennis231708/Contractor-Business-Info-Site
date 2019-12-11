@@ -1,0 +1,120 @@
+body{
+    background: #222937;
+    font-family: alegreya;
+    padding-top: 60px;
+}
+.blueBox {
+    border-radius: .5rem;
+    background-color: rgba(77, 135, 219, .5);
+}
+.carousel-item {
+    height: 800px;
+}
+.carousel-caption{
+    bottom: 100px;
+}
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    min-height: 800px;
+}
+.content h1{
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+.heading{
+    color: #DDE1DB;
+}
+.content {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #DDE1DB;
+    line-height: 2rem;
+    font-size: 24px;
+    font-weight: 400;
+}
+.navbar-brand{
+    font-size: 1.3rem;
+    margin-right: 50px;
+}
+.nav-link{
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    margin-right: 50px;
+}
+.card-title{
+    color: black;
+}
+.card img {
+    object-fit: cover;
+    height: 200px;
+}
+.headshot{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.footer{
+    background: black;
+    color: #DDE1DB;
+    height: 300px;
+}
+.footer-bottom {
+    background: #343a40;
+    color: grey;
+    font-size: 10px;
+    height: 1px;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
+
+
+.list-unstyled li a{
+    color: #DDE1DB;
+}
+.gallery_Img img{
+    height: 350px;
+    width: 350px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
+
+}
+ 
+.listItems div ul a {
+    color: #DDE1DB ;
+    font-size: 22px;
+}
+
+@media (max-width: 1100px) { 
+    .footer-section-quickContact {
+        font-size: .8rem;
+    }
+    .footer-section-about{
+        font-size: .8rem;
+    }
+ }
+@media (max-width: 768.98px) { 
+    .footer{
+        height: 720px;
+
+    }
+    .footer-section-about{
+        margin-bottom: 50px;
+        font-size: 1rem;
+    }
+    .footer-section-quickContact {
+        margin-bottom: 20px;
+    }
+    .footer-section-Links{
+        margin-bottom: 30px;
+
+    }
+ 
+}
+@media (max-width: 1200px){
+    .gallery_Img img {
+        height: 300px;
+        width: 300px;
+}   
+
+}
