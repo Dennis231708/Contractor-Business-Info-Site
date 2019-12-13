@@ -2,6 +2,7 @@ body{
     background: #222937;
     font-family: alegreya;
     padding-top: 60px;
+    overflow-x: hidden;
 }
 .blueBox {
     border-radius: .5rem;
